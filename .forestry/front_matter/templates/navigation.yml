@@ -1,0 +1,17 @@
+---
+label: Navigation
+hide_body: true
+fields:
+- type: field_group_list
+  name: items
+  label: items
+  fields:
+  - type: text
+    name: text
+    label: text
+  - type: text
+    name: url
+    label: url
+  - type: text
+    name: external
+    label: external
