@@ -7,7 +7,6 @@ sections:
 - type: document
   path: src/posts
   label: Post
-  match: "**/*"
 - type: document
   path: src/_data/navigation.json
   label: Navigation
@@ -16,6 +15,8 @@ sections:
   label: Posts
   create: documents
   match: "*.md"
+  templates:
+  - post
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
