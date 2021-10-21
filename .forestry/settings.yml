@@ -5,6 +5,10 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
+  path: src/posts
+  label: Post
+  match: "**/*"
+- type: document
   path: src/_data/navigation.json
   label: Navigation
 - type: directory
